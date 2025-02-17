@@ -1,0 +1,81 @@
+body {
+  width: 100%;
+  background-color: black;
+}
+#root{
+    width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 300px; */
+  background-color: black;
+  width: 100%;
+}
+#inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+#inp {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 50px; */
+  /* position: relative; */
+  /* top: 25px; */
+}
+
+#content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* max-width:  600px; */
+  flex-wrap: wrap;
+  animation: myani 1s;
+  position: absolute;
+  width: 40%;
+  max-width: 50%;
+  top: 200px;
+}
+@keyframes myani {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 200px;
+    opacity: 1;
+  }
+}
+#textbox {
+  width: 300px;
+  padding: 3px;
+  margin: 3px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  padding: 4px 7px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(1, 158, 1);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+h1,
+a {
+  color: white;
+}

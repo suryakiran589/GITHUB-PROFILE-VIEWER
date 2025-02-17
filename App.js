@@ -11,15 +11,24 @@ function App()
     useEffect(()=>{
     },[])
     return (
-        <div>
-            <input type="text" value={pid} onChange={(e)=>setPid(e.target.value)}></input>
+        <div className="container">
+            <div id="inner">
+
+            <div id="inp">
+
+            <input id="textbox" type="text" value={pid} onChange={(e)=>setPid(e.target.value)}></input>
             <button onClick={()=>{
                 setCurid(pid)
-            }}>Get</button>
+            }}>Search</button>
+            </div>
+
+
             {
                 curid && curid.length >0 ? < GetInfo prop={curid}/>
                 :null
             }
+            
+            </div>
         </div>
     )
 }

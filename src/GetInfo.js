@@ -18,10 +18,17 @@ function GetInfo({ prop }) {
   }, [prop]);
   
   return (fdata!=null ?
-  <div>
-    <h1>{fdata?.id}</h1>
+  <div id="content">
+    <div>
+
     <img src={fdata?.avatar_url}/>
-    <a href={"https://github.com/"+prop}>Open Profile</a>  </div>:null)
+    </div>
+    <div id="info">
+
+    <h1>Name -{fdata?.name}</h1>
+    <h1>followers {fdata?.followers}</h1>
+    
+    <a href={"https://github.com/"+prop}>Open Profile</a>  </div></div>:null)
 }
 
 export default GetInfo;
