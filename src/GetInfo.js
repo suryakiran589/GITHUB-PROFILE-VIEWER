@@ -32,8 +32,11 @@ function GetInfo({ prop }) {
     <div id="info">
 
     {fdata && fdata.name ?<h1 className="name">Name -{fdata?.name}</h1> : <h1 className="name">Name -{fdata?.login}</h1>}
-    <span>followers {fdata?.followers}</span>
-    <span>following {fdata?.following}</span>
+    <h1>
+    following {fdata?.following}
+      {/* <span>followers {fdata?.followers}</span> */}
+      </h1>
+    <h1>followers {fdata?.followers}</h1>
     {fdata && fdata.bio && <h1>Bio- {fdata?.bio}</h1>}
     
     <a href={"https://github.com/"+prop}>Open Profile</a>  </div></div>:null)
