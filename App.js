@@ -19,7 +19,7 @@ function App()
             <input id="textbox" type="text" value={pid} onChange={(e)=>setPid(e.target.value)}></input>
             <button onClick={()=>{
                 setCurid(pid)
-            }}>Search</button>
+            }}>Search  </button>
             </div>
 
 

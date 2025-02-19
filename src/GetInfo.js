@@ -12,7 +12,7 @@ function GetInfo({ prop }) {
         console.log(prop);
         const data = await fetch(`https://api.github.com/users/${prop}`);
         const results = await data.json();
-        console.log(results);
+        console.log('res',results);
         setFdata(results);
       }
       getData(prop);
@@ -21,7 +21,7 @@ function GetInfo({ prop }) {
     }
   }, [prop]);
   
-  return (fdata!=null ?
+  return (fdata!=null && fdata.id ?
   <div id="content" style={sty
   
   }>
