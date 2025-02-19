@@ -151,6 +151,9 @@ a ,span{
   #heading{
     font-size: 30px;
   }
+  body{
+    background-color: aliceblue;
+  }
   }
 
 
