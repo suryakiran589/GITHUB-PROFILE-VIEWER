@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   /* min-height: 300px; */
-  background-color: black;
+  /* background-color: black; */
   width: 100%;
 }
 #inner {
@@ -53,7 +53,7 @@ body {
   max-width: 70%;
   top: 400px;
 }
-@keyframes myani {
+/* @keyframes myani {
   from {
     top: 0px;
     opacity: 0;
@@ -62,7 +62,7 @@ body {
     top: 300px;
     opacity: 1;
   }
-}
+} */
 #textbox {
   width: 500px;
   padding: 7px;
@@ -89,7 +89,7 @@ img {
 h1,
 a ,span{
 font-family: "Caveat", serif;
-  color: rgb(251, 146, 101);
+  color: rgb(238, 255, 1);
   font-size: 50px;
 }
 input,button{
@@ -109,7 +109,7 @@ span{
     font-optical-sizing: auto;
     
   } */
-  @media screen and (max-width: 430px){
+  @media screen and (max-width: 556px){
     #textbox{
       width: 200px;
       /* height: 40px; */
@@ -142,6 +142,7 @@ a ,span{
   }
   #content{
     top: 170px;
+    padding: 0;
   }
   #type{
     display: flex;
@@ -151,9 +152,7 @@ a ,span{
   #heading{
     font-size: 30px;
   }
-  body{
-    background-color: aliceblue;
-  }
+
   }
 
 
