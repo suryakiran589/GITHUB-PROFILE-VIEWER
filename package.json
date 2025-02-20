@@ -17,10 +17,5 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  },
-  "targets": {
-    "main": {
-      "context": "browser"
-    }
   }
 }
