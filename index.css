@@ -11,6 +11,7 @@ body {
   /* height: 20px; */
   font-size: 20px;
   color: #0f0f0f;
+  /* padding:"10px 10px"; */
 }
 
 a{
@@ -126,7 +127,7 @@ img {
 }
 h1,span{
 font-family: "Caveat", serif;
-  color:  #39FF14;
+  color:  #E0E0E0;
   font-size: 50px;
 }
 input,button{
@@ -141,6 +142,7 @@ span{
 #info{
     text-align: center;
 }
+
 /* .dancing-script-<"name"> {
     font-family: "Dancing Script", serif;
     font-optical-sizing: auto;
@@ -187,8 +189,12 @@ a ,span{
     align-items: center;
   } */
   #heading{
-    font-size: 25px;
+    font-size: 20px;
     
+  }
+  #dark-mode{
+    font-size: 15px;
+    padding: 2px 8px;
   }
 
   }
